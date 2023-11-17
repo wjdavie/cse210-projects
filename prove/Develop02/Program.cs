@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop02 World!");
+        Journal myJournal = new Journal("journal.txt");
+
+        Console.WriteLine("Welcome to the Journal Program! ");
+        
     }
 }
